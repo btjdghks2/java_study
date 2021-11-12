@@ -2,7 +2,7 @@ package test_pro_first;
 
 public class MemberService{
 
-Member mamber = new Member();
+Member mamber = new Member(String id, String password);
 
 boolean login(String id,String password){
 if("hong".equals(id) && "12345".equals(password))
