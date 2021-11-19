@@ -2,46 +2,30 @@ package java_interface;
 
 public class Television implements RemoteControl {
 
-	@Override
-	public void turnOn() {
-		// TODO Auto-generated method stub
-		
-	}
 
-	@Override
-	public void turnOff() {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public void setVolume(int volume) {
-		// TODO Auto-generated method stub
-		
-	}
 	
-//	//필드
-//	private int volume;
-//	
-//	//turnOn() 　추상　메소드의　실체　메소드
-//	public void turnOn() {
-//		System.out.println("티비를　켭니다");
-//	}
-//	//turnOff() 추상메소드의　실체　메소드
-//	public void turnOff() {
-//		System.out.println("티비를　끕니다");
-//	}
-//	//setVolume() 추상　메소드의　실체　메소드
-//	public void setVolume(int volume) {
-//		if(volume>RemoteControl.MAX_VOLUME) {
-//			this.volume = RemoteControl.MAX_VOLUME;
-//		}else if(volume<RemoteControl.MIN_VOLUME) {
-//			this.volume = RemoteControl.MIN_VOLUME;
-//		} else {
-//			this.volume = volume;
-//		}
-//		System.out.println("현재　티비　볼륨：" + this.volume);
-//	}
+	//필드
+	private int volume;
+	
+	//turnOn() 　추상　메소드의　실체　메소드
+	public void turnOn() {
+		System.out.println("티비를　켭니다");
+	}
+	//turnOff() 추상메소드의　실체　메소드
+	public void turnOff() {
+		System.out.println("티비를　끕니다");
+	}
+	//setVolume() 추상　메소드의　실체　메소드
+	public void setVolume(int volume) {
+		if(volume>RemoteControl.MAX_VOLUME) {
+			this.volume = RemoteControl.MAX_VOLUME;
+		}else if(volume<RemoteControl.MIN_VOLUME) {
+			this.volume = RemoteControl.MIN_VOLUME;
+		} else {
+			this.volume = volume;
+		}
+		System.out.println("현재　티비　볼륨：" + this.volume);
+	}
 
 	
 
