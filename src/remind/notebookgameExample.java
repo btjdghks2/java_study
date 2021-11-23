@@ -8,7 +8,7 @@ public class notebookgameExample {
 		notebookgame notebookgame = new notebookgame("샘숭","블랙",25);
 		
 		System.out.println("모델：" + notebookgame.model);
-		System.out.println("색상：" + notebookgame.color);
+		System.out.println("색상：" + notebookgame.color); 
 		
 		System.out.println("서버：" + notebookgame.gameserver);
 		
